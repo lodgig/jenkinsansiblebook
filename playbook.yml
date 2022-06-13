@@ -6,7 +6,6 @@
       ansible.builtin.debug:
         msg: "Test debug"
     - name: "I am here"
-      copy:
-        dest: "/home/alexey/Downloads"
-        content:
-            I an here
+      file:
+        path: "/home/alexey/Downloads/Here"
+        state: touch
