@@ -1,1 +1,2 @@
-10.0.0.15 ansible_user=yc-user
+[myvirtualmachines]
+ansible_host=10.0.0.15 ansible_user=yc-user
