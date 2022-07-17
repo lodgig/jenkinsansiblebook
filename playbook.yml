@@ -7,5 +7,5 @@
         msg: "Test debug"
     - name: "I am here"
       file:
-        path: "/home/alexey/"
+        path: "/home/yc-user/"
         state: touch
