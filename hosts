@@ -1,2 +1,2 @@
 [myvirtualmachines]
-10.0.0.15 ansible_user=yc-user
+10.0.0.11 ansible_user=yc-user ansible_ssh_pass = 123
