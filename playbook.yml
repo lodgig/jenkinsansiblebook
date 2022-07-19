@@ -1,6 +1,6 @@
 ---
 - name: Get the token for joining the nodes with Kuberentes master.
-  hosts: loclahost
+  hosts: "master"
   tasks:
     - name: Get the token for  Kuberentes master.
       shell: kubeadm token create  --print-join-command
