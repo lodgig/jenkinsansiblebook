@@ -1,2 +1,2 @@
 [myvirtualmachines]
-ansible_host = 10.0.0.11 ansible_user=yc-user ansible_password = 123
+worker1 ansible_host = 10.0.0.11 ansible_user=yc-user ansible_password = 123
