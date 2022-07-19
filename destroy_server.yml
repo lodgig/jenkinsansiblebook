@@ -1,0 +1,10 @@
+---
+- name: deploy server
+  hosts: "master"
+  become_method: sudo
+  gather_facts: yes
+  connection: ssh
+  
+  tasks:
+    - name: create namespace
+      shell:  kubectl delete namespace sock-shop
