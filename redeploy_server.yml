@@ -6,5 +6,9 @@
   connection: ssh
   
   tasks:
+    - name: delete
+      shell:  kubectl delete namespace sock-shop
+    - name: create namespace
+      shell:  kubectl create namespace sock-shop
     - name: apply
       shell: kubectl apply -n sock-shop -f "https://github.com/microservices-demo/microservices-demo/blob/master/deploy/kubernetes/complete-demo.yaml?raw=true"
